@@ -9,7 +9,7 @@
 # General
 --------------------------------------------------------------*/
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: "system-ui";
   color: #434b54;
 }
 
@@ -81,7 +81,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header .profile img {
-  margin: 15px auto;
+  margin: 25px auto;
   display: block;
   width: 120px;
   border: 8px solid #1c1d25;
@@ -98,6 +98,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header .profile h1 a, #header .profile h1 a:hover {
+  font-weight: 500;
   color: #40a974;
   text-decoration: none;
 }
@@ -106,7 +107,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 18px;
   display: inline-block;
   background: #212431;
-  color: #40a964;
+  color: #4b926e;
   line-height: 1;
   padding: 8px 0;
   margin-right: 4px;
@@ -168,7 +169,7 @@ h1, h2, h3, h4, h5, h6 {
 .nav-menu a i {
   font-size: 24px;
   padding-right: 8px;
-  color: rgb(64 169 116);
+  color: rgb(75 146 110);
 }
 
 .nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
@@ -196,7 +197,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .mobile-nav-toggle i {
-  color: #149ddd;
+  color: #40a974;
 }
 
 .mobile-nav-active {
@@ -223,7 +224,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #hero:before {
   content: "";
-  background: rgba(112, 143, 112, 0.3);
+  background: rgb(219 246 219 / 30%);
   position: absolute;
   height: 55vh;
   top: 0;
@@ -257,7 +258,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #040b14;
   padding-bottom: 4px;
   letter-spacing: 1px;
-  border-bottom: 3px solid #40a974;
+  border-bottom: 3px solid #4b926e;
 }
 
 @media (min-width: 1024px) {
@@ -287,7 +288,7 @@ section {
 }
 
 .section-bg {
-  background: #f5f8fd;
+  background: rgb(219 246 219 / 30%);
 }
 
 .section-title {
@@ -449,23 +450,25 @@ section {
   border-left: 2px solid #40a964;
   position: relative;
 }
+
 .resume .resume-item h4 {
   line-height: 18px;
   font-size: 18px;
   font-weight: 600;
   text-transform: uppercase;
   font-family: "Poppins", sans-serif;
-  color: #050d18;
+  color: #6fad8c;
   margin-bottom: 10px;
 }
 
 .resume .resume-item h5 {
   font-size: 16px;
-  background: #d7e8dd;
+  background: #e6f4e6;
   padding: 5px 15px;
-  display: inline-block;
   font-weight: 600;
   margin-bottom: 10px;
+  border-radius: 1rem;
+  float: right;
 }
 
 .resume .resume-item ul {
